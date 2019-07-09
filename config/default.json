@@ -1,0 +1,6 @@
+{
+  "mongoURI":"mongodb+srv://akshit123:akshit123@devsocial-xplex.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret":"mysecrettoken",
+  "githubClientId": "",
+  "githubSecret": ""
+}
