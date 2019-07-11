@@ -144,6 +144,7 @@ const Createprofile = ({
           />
           <small className='form-text'>Tell us a little about yourself</small>
         </div>
+
         <div className='my-2'>
           <button
             onClick={() => toggleSocialInputs(!displaySocialInputs)}
@@ -166,6 +167,7 @@ const Createprofile = ({
                 onChange={e => onChange(e)}
               />
             </div>
+
             <div className='form-group social-input'>
               <i className='fab fa-facebook fa-2x' />
               <input
@@ -176,6 +178,7 @@ const Createprofile = ({
                 onChange={e => onChange(e)}
               />
             </div>
+
             <div className='form-group social-input'>
               <i className='fab fa-youtube fa-2x' />
               <input
@@ -186,6 +189,7 @@ const Createprofile = ({
                 onChange={e => onChange(e)}
               />
             </div>
+
             <div className='form-group social-input'>
               <i className='fab fa-linkedin fa-2x' />
               <input
@@ -196,6 +200,7 @@ const Createprofile = ({
                 onChange={e => onChange(e)}
               />
             </div>
+
             <div className='form-group social-input'>
               <i className='fab fa-instagram fa-2x' />
               <input
@@ -208,6 +213,7 @@ const Createprofile = ({
             </div>
           </Fragment>
         )}
+
         <input type='submit' className='btn btn-primary my-1' />
         <Link className='btn btn-light my-1' to='/dashboard'>
           Go Back
@@ -218,6 +224,7 @@ const Createprofile = ({
     <Redirect to='/dashboard' />
   );
 };
+
 Createprofile.propTypes = {
   createProfile: PropTypes.func.isRequired,
   getCurrentProfile: PropTypes.func.isRequired,
